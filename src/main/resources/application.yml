@@ -20,6 +20,10 @@ spring:
       force: true
       force-request: true
       force-response: true
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
   redis:
     host: localhost
     port: 6379 
